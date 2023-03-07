@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[V2.0][Thực hành] 1. Hiển thị đầu ra</title>
+
+</head>
+<body>
+
+<!--Bài tập 1: Hiển thị kết quả sử dụng hàm alert()-->
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage() {
+        alert('Hello averyone My name is HOANG')
+    }
+</script>
+
+
+<!--Bài tập 2: Hiển thị kết quả sử dụng thẻ HTML-->
+<div id="messagediv"></div>
+<button type="button" onclick="showMessage()">CLICK ME!</button>
+<script>
+    function showMessage() {
+        document.getElementById('messagediv') .innerHTML = 'Xin Chao!' ;
+    }
+</script>
+
+
+<!--Bài tập 3: Hiển thị kết quả sử dụng hàm document.write()-->
+<button type="button" onclick="showMessage() ;">Click Me!</button>
+<script>
+    function showMessage() {
+        document.write('Hello everyone My name is HOANG');
+    }
+</script>
+
+<!--Bài tập 4: Hiển thị kết quả sử dụng hàm console.log()-->
+<button style="background-color:blue; color:#ffffff; border-radius: 2px solid" type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage() {
+        console.log('Hello everyone My name is HOANG');
+    }
+</script>
+</body>
+</html>
